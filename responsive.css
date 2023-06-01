@@ -1,0 +1,135 @@
+@media screen and (max-width: 1050px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .container {
+        overflow: hidden;
+        max-width: 90vw ;
+    }
+/* nav bar */
+    .menu-baricon{
+        display: block;
+        font-size: 25px;
+    }
+
+    .nav-links ul {
+        display: none;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+/* header section */
+    /* .header-left {
+        max-width: 80vw;
+    } */
+
+    /* company section */
+    .companies-section {
+        margin-top: 30px;
+    }
+
+    .logos {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+/* features-section */
+
+.features-section {
+    margin-top: 50px;
+    background-image: url(./Image/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    padding-block: 100px var(--padding-inline-section) 100px;
+}
+
+.features-card {
+    line-height: 00.2rem;
+}
+
+/* big-feature section */
+
+.big-feature-container{
+     
+    /* width: 100; */
+    position: relative;
+}
+
+.feature-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.2;
+    z-index: -2;
+}
+/* example section */
+
+.examples-area{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.examples-card {
+    width: 48%;
+}
+
+/* cta-section */
+
+.cta-container {
+    position: relative;
+}
+
+.cta-description {
+    z-index: 5;
+}
+
+.cta-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.1;
+}
+
+.cta-list {
+    justify-content: space-around;
+}
+
+/* start today section */
+
+.start-today-section {
+    padding-block: 50px;
+}
+
+/* footer section */
+
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.massage-icon {
+    width: 40px;
+    height: 40px;
+    bottom: 5px;
+    right: 5px;
+}
+.massage-img {
+    width: 15px;
+}
+
+}
